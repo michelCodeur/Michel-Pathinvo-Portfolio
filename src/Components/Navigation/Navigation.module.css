@@ -1,0 +1,39 @@
+a:-webkit-any-link {
+    text-decoration: none;
+}
+.aboutmelink:before {
+    content: "<"
+}
+.aboutmelink:after {
+    content: "/>"
+}
+.skillslink:before {
+    content: "<"
+}
+.skillslink:after {
+    content: "/>"
+}
+.projectslink:before {
+    content: "<"
+}
+.projectslink:after {
+    content: "/>"
+}
+.resumelink:before {
+    content: "<"
+}
+.resumelink:after {
+    content: "/>"
+}
+.contactmelink:before {
+    content: "<"
+}
+.contactmelink:after {
+    content: "/>"
+}
+.aboutmelink:before {
+    content: "<"
+}
+.skillslink:after {
+    content: "/>"
+}
