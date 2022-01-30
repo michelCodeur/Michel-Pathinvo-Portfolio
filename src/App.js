@@ -14,11 +14,14 @@ import ScrollToTop from './Components/ScrollToTop';
 function App() {
 	return (
 		<>
+			<div>
+				<Home />
+			</div>
 			<Navigation />
 
 			<ScrollToTop />
 			<Routes>
-				<Route index path='/' element={<Home />} />
+				{/* <Route index path='/' element={<Home />} /> */}
 				<Route path='/aboutme' element={<AboutMe />} />
 				<Route path='/contactme' element={<ContactMe />} />
 				<Route path='/projects' element={<Projects />} />

@@ -1,0 +1,30 @@
+li {
+    list-style-type: none;
+    letter-spacing: 2rem;
+}
+.ul {
+    display: flex;
+    box-sizing: border-box;
+    border-bottom: 4px solid black;
+    margin-top: -5px;
+    height: 150px;
+    font-size: 1.5rem;
+}
+.firstname {
+    padding: 1rem 0rem 3rem 3rem;
+}
+.lastname {
+    padding: 3rem 3rem 2rem 0rem;
+
+}
+.name {
+    background-color: rgba(51, 125, 150, 0.63);
+    font-family: 'Times New Roman', Times, serif
+}
+@media (max-width: 600px) {
+    .name {
+        padding: 0.5rem;
+        margin: 0;
+
+    }
+}
