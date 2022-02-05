@@ -6,7 +6,7 @@ function Navigation(props) {
 	return (
 		<div className={styles.navigation}>
 			<Link to='/aboutme' className={styles.aboutmelink}>
-				<span> AboutMe </span>
+				<span> About Me </span>
 			</Link>
 			<Link to='/skills' className={styles.skillslink}>
 				<span> Skills </span>
@@ -18,7 +18,7 @@ function Navigation(props) {
 				<span> Resume </span>
 			</Link>
 			<Link to='/contactme' className={styles.contactmelink}>
-				<span> ContactMe </span>
+				<span> Contact Me </span>
 			</Link>
 		</div>
 	);

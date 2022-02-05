@@ -1,10 +1,11 @@
 import React from 'react';
+import styles from './Footer.module.css'
 
 function Footer(props) {
     return (
-        <div>
-           <h1> this is footer </h1> 
-        </div>
+       <div className={styles.footerContainer}>
+         <span>MichelPathinvo &copy; | Deployed by Netlify & Heroku</span>
+       </div>
     );
 }
 
