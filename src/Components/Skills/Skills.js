@@ -1,11 +1,14 @@
 import React from 'react';
+import styles from './Skills.module.css';
 
 function Skills(props) {
     return (
-        <div>
-           <h1> this is skills </h1> 
-        </div>
-    );
+			<div className={styles.background}>
+				<span className={styles.title}>
+					<h1> Skills </h1>
+				</span>
+			</div>
+		);
 }
 
 export default Skills;

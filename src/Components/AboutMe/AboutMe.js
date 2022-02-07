@@ -22,9 +22,10 @@ function AboutMe(props) {
 						<br /> Thanks for reading...
 					</h4>
 				</p>
-				<span>
-					<p>The best time for a new beginning is now!</p>
-				</span>
+				<nav>
+				<p>The best time for a new beginning is now!</p>
+                </nav>
+				
 			</div>
 		);
 }

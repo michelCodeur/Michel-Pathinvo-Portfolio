@@ -1,0 +1,12 @@
+ 
+.background {
+    height: 100vh;
+    background-color: rgb(171, 222, 231);
+    margin-top: -20px;
+}
+.title {
+    text-decoration: underline;
+    font-family: "Space Mono", monospace;
+    color: rgb(56, 56, 141);
+    text-indent: 60px;
+}

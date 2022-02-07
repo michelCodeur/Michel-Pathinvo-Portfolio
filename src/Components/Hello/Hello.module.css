@@ -1,0 +1,11 @@
+
+.background {
+    background-image: url('../../Assets/photoMichel-2.jpg');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1; 
+    height: 50vh;
+    width: 50vw;
+    
+}

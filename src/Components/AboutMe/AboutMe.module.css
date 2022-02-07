@@ -9,7 +9,7 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: contain;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     z-index: -1;
 }
@@ -29,9 +29,14 @@ img {
     line-height: 2;
     padding:0 20px 0 20px;
 }
- {
-    position: absolute;
-    bottom: 0;
-    
-
-}
+ 
+ nav {
+     position: fixed;
+     bottom: 0;
+     right: 0;
+     padding-right: 20px;
+     font-family: "Space Mono", monospace;
+     font-weight: 900;
+ }
+ 
+ 
