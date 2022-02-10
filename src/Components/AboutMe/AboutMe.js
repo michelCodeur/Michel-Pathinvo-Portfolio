@@ -22,9 +22,9 @@ function AboutMe(props) {
 						<br /> Thanks for reading...
 					</h4>
 				</p>
-				<nav>
+				<div className={styles.quote}>
 				<p>The best time for a new beginning is now!</p>
-                </nav>
+                </div>
 				
 			</div>
 		);

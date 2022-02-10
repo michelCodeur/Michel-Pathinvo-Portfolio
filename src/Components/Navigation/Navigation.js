@@ -5,6 +5,11 @@ import styles from './Navigation.module.css';
 function Navigation(props) {
 	return (
 		<div className={styles.navigation}>
+			<div>
+				<Link to='/hello' className={styles.homelink}>
+					<i class='fa fa-home'></i> Home
+				</Link>
+			</div>
 			<Link to='/aboutme' className={styles.aboutmelink}>
 				<span> About Me </span>
 			</Link>

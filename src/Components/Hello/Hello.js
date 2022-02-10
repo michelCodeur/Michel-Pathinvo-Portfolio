@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Hello.module.css';
-import photoMichel from '/Users/promichel/SEI/projects/michel-pathinvo-portfolio/src/Assets/photoMichel.png';
+import photoMichel from '/Users/promichel/SEI/projects/michel-pathinvo-portfolio/src/Assets/photoMichel.jpeg';
 
 function Hello(props) {
     return (
@@ -11,7 +11,7 @@ function Hello(props) {
 					<h1>H</h1>
 					<h1>E</h1>
 					<h1>R</h1>
-					<h1>E</h1>
+					<h1>E...</h1>
 				</div>
 				<div className={styles.meet}>
 					<h1>Meet Michel</h1>
@@ -24,7 +24,12 @@ function Hello(props) {
 				</div>
 
 				<div className={styles.developer}>
-					<h1> developer</h1>
+					<h1> a passionate web devolper </h1>
+				</div>
+				<div className={styles.quote}>
+					<p>
+						In a gentle way, you can shake the world. Gandhi
+					</p>
 				</div>
 			</div>
 		);

@@ -39,40 +39,47 @@ a:-webkit-any-link {
 }
 .navigation {
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
     justify-content: space-evenly;
     justify-items: center;
     font-family: Muli, sans-serif;
     font-size: 1em;
     font-weight: bolder;
-    background-color: #90b5ce;
+    background-color: #bac5cc;
     box-sizing: border-box;
     border: 3px solid gray;
     border-top-style: unset;
-    height: 105px;
+    height: 130px;
     
 }
-.aboutmelink {
+.homelink {
     grid-column: 1;
     grid-row: 1;
+    color: black;
 }
-.skillslink {
+.aboutmelink {
     grid-column: 2;
     grid-row: 2;
+    color: black;
 }
-.projectslink {
+.skillslink {
     grid-column: 3;
     grid-row: 3;
+    color: black;
 }
-.resumelink {
+.projectslink {
     grid-column: 4;
     grid-row: 4;
+    color: black;
 }
-.contactmelink {
+.resumelink {
     grid-column: 5;
     grid-row: 5;
+    color: black;
 }
-.animate__animated.animate__bounce {
-  --animate-duration: 2s;
+.contactmelink {
+    grid-column: 6;
+    grid-row: 6;
+    color: black;
 }

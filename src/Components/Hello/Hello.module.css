@@ -4,41 +4,71 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr); 
-    gap: 0;
+    gap: 10px;
+    background-color: gainsboro;
 
 }
 .hello {
     grid-column: 1;
     grid-row: 1/4;
     box-sizing: border-box;
-    border: 2px solid rebeccapurple;
+    border: 10px solid gray;
+    border-radius: 20px;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Pacifico', cursive;
+   
 }
 .photo > img {
     grid-column: 2/ span 2;
     grid-row: 2;
+    
     box-sizing: border-box;
-    border: 2px solid greenyellow;
+    border: 10px solid gray;
+    border-radius: 20px;
     object-fit: cover;
-    height: 350px;
-    width: 400px;
-    /*  */
+    z-index: -1;
+    transform: scale(1);
+    height: 500px;
+    width: 500px;
+    
 }
 .meet {
     grid-column: 2 / span 3;
     grid-row: 1;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 10px solid gray;
+    border-radius: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
+    letter-spacing: 30px;
+    text-align: center;
 
 }
 .nothing {
-    grid-column: 4 /span 1;
+    grid-column: 3 /span 2;
     grid-row: 2;
     box-sizing: border-box;
-    border: 2px solid black;
+    border: 10px solid gray;
+    border-radius: 20px;
 }
 .developer {
     grid-column: 2 /span 3;
     grid-row: 3;
     box-sizing: border-box;
-    border: 2px solid yellow;
+    border: 10px solid gray;
+    border-radius: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: x-large;
+    letter-spacing: 20px;
+    text-align: center;
+}
+.quote {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 20px;
+    font-family: "Space Mono", monospace;
+    font-weight: 900;
+
 }
