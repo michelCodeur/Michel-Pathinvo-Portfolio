@@ -1,12 +1,42 @@
  
-.background {
-    height: 100vh;
-    background-color: rgb(171, 222, 231);
-    margin-top: -20px;
-}
 .title {
     text-decoration: underline;
     font-family: "Space Mono", monospace;
     color: rgb(56, 56, 141);
     text-indent: 60px;
+}
+.background {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    
+}
+.language {
+    grid-column: 1;
+    grid-row: 1;
+    box-sizing: border-box;
+    border: 10px solid burlywood;
+    border-radius: 20px;
+}
+.database {
+    grid-column: 2;
+    grid-row: 1;
+    box-sizing: border-box;
+    border: 10px solid yellowgreen;
+    border-radius: 20px;
+}
+.framework {
+    grid-column: 1;
+    grid-row: 2;
+    box-sizing: border-box;
+    border: 10px solid rgb(130, 103, 155);
+    border-radius: 20px;
+}
+.network {
+    grid-column: 2;
+    grid-row: 2;
+    box-sizing: border-box;
+    border: 10px solid rgb(117, 56, 74);
+    border-radius: 20px;
 }

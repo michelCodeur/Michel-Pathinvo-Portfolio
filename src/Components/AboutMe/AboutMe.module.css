@@ -31,13 +31,9 @@ img {
 }
  
  .quote {
-     display: flex;
-     justify-content: end;
-     text-align-last: right;
+     position: fixed;
      bottom: 0;
      right: 0;
-     padding-right: 20px;
-     padding-bottom: 0;
      font-family: "Space Mono", monospace;
      font-weight: 900;
  }
