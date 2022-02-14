@@ -23,7 +23,7 @@ function AboutMe(props) {
 					</h4>
 				</p>
 				<div className={styles.quote}>
-				<p>The best time for a new beginning is now!</p>
+				{/* <p>The best time for a new beginning is now!</p> */}
                 </div>
 				
 			</div>

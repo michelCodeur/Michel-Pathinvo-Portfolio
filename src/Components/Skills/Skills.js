@@ -3,27 +3,41 @@ import styles from './Skills.module.css';
 
 function Skills(props) {
     return (
-			<div className={styles.background}>
+			<>
 				<div className={styles.title}>
-					<h1> Skills </h1>
+					<h2> Skills </h2>
 				</div>
-				<div className={styles.language}>
-                 <span>Python</span>
-				 <span>JavaScript</span>
-				 <span>TypeScript</span>
-				 <span>SQL</span>
-				 <span>HTML</span>
+				<div className={styles.background}>
+					<ul className={styles.language}>
+							<li>Python</li>
+							<li>JavaScript</li>
+							<li>TypeScript</li>
+							<li>CSS</li>
+							<li>HTML</li>
+							<li>Node.JS</li>
+						
+					</ul>
+					<ul className={styles.database}>
+						
+							<li>SQL</li>
+							<li>PostgreSQL</li>
+							<li>MongoDB</li>
+							<li>Django</li>
+						
+					</ul>
+					<ul className={styles.framework}>
+						<li>Front-End Deployment</li>
+						<li>Back-End Deployment</li>
+						<li>React</li>
+						<li>Express.JS</li>
+					</ul>
+					<ul className={styles.network}>
+						<li>Computer Networking</li>
+						<li>Cybersecurity</li>
+						<li>Computer Hardware</li>
+					</ul>
 				</div>
-				<div className={styles.database}>
-
-				</div>
-				<div className={styles.framework}>
-
-				</div>
-				<div className={styles.network}>
-
-				</div>
-			</div>
+			</>
 		);
 }
 
