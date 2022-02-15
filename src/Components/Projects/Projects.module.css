@@ -8,43 +8,43 @@
 .background {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    grid-template-rows: repeat(3, auto);
-    gap: 20px;
-    font-size: x-large;
-
+    grid-template-rows: repeat(2, auto);
+    gap: 100px;
+    justify-content: center;
 }
 
 
 .watson {
+    grid-column: 1;
+    grid-row: 1;
+    box-sizing: border-box;
+    border: 10px solid darkgrey;
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    z-index: -1;
+}
+.holiday {
     grid-column: 2;
     grid-row: 1;
     box-sizing: border-box;
     border: 10px solid darkgrey;
     border-radius: 20px;
-    width: 100px;
-    height: 200px;
-    object-fit: contain;
+    width: 300px;
+    height: auto;
+    transform: scale(1);
+    object-fit: cover;
     z-index: -1;
 }
-.holiday {
+.trivia {
     grid-column: 1;
     grid-row: 2;
     box-sizing: border-box;
     border: 10px solid darkgrey;
     border-radius: 20px;
-    width: 100px;
-    height: 150px;
-    object-fit: contain;
-    z-index: -1;
-}
-.trivia {
-    grid-column: 2;
-    grid-row: 2;
-    box-sizing: border-box;
-    border: 10px solid darkgrey;
-    border-radius: 20px;
-    width: 100px;
-    height: 150px;
-    object-fit: contain;
+    width: 300px;
+    height: auto;
+    object-fit: cover;
     z-index: -1;
 }
