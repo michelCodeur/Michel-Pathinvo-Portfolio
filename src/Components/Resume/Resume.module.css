@@ -1,0 +1,17 @@
+.title {
+    text-decoration: underline;
+    font-family: "Space Mono", 
+    monospace;
+    color: rgb(56, 56, 141);
+    text-indent: 60px;
+}
+.link {
+    text-indent: 50px;
+}
+h2 {
+    text-indent: 50px;
+}
+a {
+    color: rgb(240, 17, 47);
+
+}
