@@ -13,14 +13,14 @@ import Footer from './Components/Footer/Footer';
 import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
-
+	
 	return (
 		<>
 			<Home />
 			<Navigation />
 			<ScrollToTop />
 			<Routes>
-				<Route path='/hello' element={<Hello />}/>
+				<Route path='/hello' element={<Hello />} />
 				<Route path='/aboutme' element={<AboutMe />} />
 				<Route path='/contactme' element={<ContactMe />} />
 				<Route path='/projects' element={<Projects />} />
