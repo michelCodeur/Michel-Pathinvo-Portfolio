@@ -27,5 +27,9 @@ img {
      font-family: "Space Mono", monospace;
      font-weight: 900;
  }
+ p::first-letter {
+     text-transform: capitalize;
+     font-size: 30px;
+ }
  
  

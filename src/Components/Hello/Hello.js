@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Hello.module.css';
-import photoMichel from '../../Assets/photoMichel.jpeg';
+import photoMichelNew from '../../Assets/photoMichelNew.jpg';
 
 function Hello(props) {
     return (
@@ -17,10 +17,10 @@ function Hello(props) {
 					<h1>Meet Michel</h1>
 				</div>
 				<div className={styles.nothing}>
-					<h1> Empty</h1>
+					<h3> My bucket list of places I would like to discover! </h3>
 				</div>
 				<div className={styles.photo}>
-					<img src={photoMichel} alt='photoMichel' />
+					<img src={photoMichelNew} alt='photoMichelNew' />
 				</div>
 
 				<div className={styles.developer}>

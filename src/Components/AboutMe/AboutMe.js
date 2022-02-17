@@ -9,10 +9,10 @@ function AboutMe(props) {
 				</span>
 				<p className={styles.paragraph}>
 					<h4>
-						Born in Cotonou, the largest city in Benin Republic, a French
+						First generation immigrant from Benin Republic, a French
 						speaking country in the Western part of the African continent, I
 						moved to U.S. more than a decade ago with my family. With a
-						background in STEM, I went ahead the University of Illinois in
+						background in STEM, I went ahead to complete a University of Illinois in
 						Springfield while working in the state government. <br />
 						Being always passionate by technology, I decided to sharpen my web
 						development skills and look at what I just built among many others
