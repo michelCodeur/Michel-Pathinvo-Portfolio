@@ -50,6 +50,117 @@
     border-radius: 20px;
     font-size: 1.2vw;
 }
+.nothing {
+	 background: #020520;
+	 perspective: 500px;
+	 overflow-x: hidden;
+}
+ figure {
+	 position: sticky;
+	 top: 0;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 width: 100vw;
+	 height: 100vh;
+}
+ figure:nth-child(1) img {
+	 transform: scale(0.6) rotate(-12.5deg);
+}
+ figure:nth-child(2) img {
+	 transform: scale(0.6) rotate(-9.7222222222deg);
+}
+ figure:nth-child(3) img {
+	 transform: scale(0.6) rotate(-6.9444444444deg);
+}
+ figure:nth-child(4) img {
+	 transform: scale(0.6) rotate(-4.1666666667deg);
+}
+ figure:nth-child(5) img {
+	 transform: scale(0.6) rotate(-1.3888888889deg);
+}
+ figure:nth-child(6) img {
+	 transform: scale(0.6) rotate(1.3888888889deg);
+}
+ figure:nth-child(7) img {
+	 transform: scale(0.6) rotate(4.1666666667deg);
+}
+ figure:nth-child(8) img {
+	 transform: scale(0.6) rotate(6.9444444444deg);
+}
+ figure:nth-child(9) img {
+	 transform: scale(0.6) rotate(9.7222222222deg);
+}
+ figure:nth-child(10) img {
+	 transform: scale(0.6) rotate(12.5deg);
+}
+ figure img {
+	 width: 100vmin;
+	 height: 100vmin;
+	 border-radius: 3px;
+}
+ 
+/* .nothing { */
+    /* display: grid; */
+    /* grid-template-columns: repeat(var(--numcolumns), 1fr); */
+    /* grid-gap: 1px; */
+    /* grid-auto-rows: 10px; */
+    /* grid-template-areas:  */
+    /* " a b c " */
+    /* " d e f " */
+    /* "  g  h  "; */
+    /* align-items: stretch; */
+/*      */
+/* } */
+/* .london { */
+    /* grid-area: a; */
+    /* width: 100%; */
+/* height: 100%; */
+/* object-fit: cover; */
+/* } */
+/* .arizona { */
+    /* grid-area: b; */
+    /* width: 100%; */
+/* height: 100%; */
+/* object-fit: cover; */
+/* } */
+/* .partheon { */
+    /* grid-area: c; */
+    /* width: 100%; */
+/* height: 100%; */
+/* object-fit: cover; */
+/* } */
+/* .riojanero { */
+    /* grid-area: d; */
+    /* width: 100%; */
+/* height: 100%; */
+/* object-fit: cover; */
+/* } */
+/* .sysdney { */
+    /* grid-area: e; */
+    /* width: 100%; */
+/* height: 100%; */
+/* object-fit: cover; */
+/* } */
+/* .tallinn { */
+    /* grid-area: f; */
+    /* width: 100%; */
+/* height: 100%; */
+/* object-fit: cover; */
+/* } */
+/* .thegreatwall { */
+    /* grid-area: g; */
+    /* width: 100%; */
+/* height: 100%; */
+/* object-fit: cover; */
+/* } */
+/* .zanzibar { */
+    /* grid-area: h; */
+    /* width: 100%; */
+/* height: 100%; */
+/* object-fit: cover; */
+/* } */
+
 .developer {
     grid-column: 2 /span 3;
     grid-row: 3;

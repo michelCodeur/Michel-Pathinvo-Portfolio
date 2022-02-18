@@ -13,7 +13,6 @@ import Footer from './Components/Footer/Footer';
 import ScrollToTop from './Components/ScrollToTop';
 
 function App() {
-	
 	return (
 		<>
 			<Home />
@@ -27,7 +26,6 @@ function App() {
 				<Route path='/resume' element={<Resume />} />
 				<Route path='/skills' element={<Skills />} />
 			</Routes>
-
 			<Footer />
 		</>
 	);

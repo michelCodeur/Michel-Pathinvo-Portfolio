@@ -44,7 +44,7 @@ a:-webkit-any-link {
     justify-content: space-evenly;
     justify-items: center;
     font-family: Muli, sans-serif;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     font-weight: bolder;
     background-color: #bac5cc;
     box-sizing: border-box;
@@ -95,7 +95,7 @@ a:-webkit-any-link {
 .projectslink:hover,
 .resumelink:hover,
 .contactmelink:hover {
-    color: rgb(26, 182, 39);
+    color: rgb(62, 144, 238);
     transform: scale(1.5);
 
 }
