@@ -13,7 +13,7 @@
     border: 10px solid gray;
     border-radius: 20px;
     text-align: center;
-    font-size: x-large;
+    font-size: 2.5vh;
     font-family: 'Pacifico', cursive;
    
 }
@@ -26,8 +26,8 @@
     object-fit: cover;
     z-index: -1;
     transform: scale(1);
-    height: 500px;
-    width: auto;
+    height: auto;
+    width: 450px;
     
 }
 .meet {
@@ -37,7 +37,7 @@
     border: 10px solid rgb(136, 133, 133);
     border-radius: 20px;
     font-family: 'Pacifico', cursive;
-    font-size: x-large;
+    font-size: 2vw;
     letter-spacing: 30px;
     text-align: center;
 
@@ -48,6 +48,7 @@
     box-sizing: border-box;
     border: 10px solid gray;
     border-radius: 20px;
+    font-size: 1.2vw;
 }
 .developer {
     grid-column: 2 /span 3;
@@ -56,18 +57,14 @@
     border: 10px solid gray;
     border-radius: 20px;
     font-family: 'Pacifico', cursive;
-    font-size: x-large;
+    font-size: 2vw;
     letter-spacing: 20px;
     text-align: center;
 }
-/* .quote { */
-    /* position: fixed; */
-    /* width: 100vw; */
-    /* bottom: 0; */
-    /* right: 0; */
-    /* padding-right: 20px; */
-    /* font-family: "Space Mono", monospace; */
-    /* font-weight: 900; */
-/*  */
-/* } */
-/*  */
+img {
+    transition: 0.3s;
+}
+img:hover {
+    transform: scale(2);
+
+}

@@ -39,7 +39,9 @@
     margin-top: 10px;
     background-color: rgb(99, 160, 230);
     font-size: x-large;
+    transition: 0.5s;
 }
 .sendButton:hover {
     background-color: rgb(18, 192, 47);
+    transform: scale(2);
 }

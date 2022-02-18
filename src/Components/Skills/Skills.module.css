@@ -7,36 +7,44 @@
 }
 .background {
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 200px;
+    grid-template-areas:
+    " . a b . "
+    " . c d . ";
     gap: 10px;
-    font-size: x-large;
+    font-size: 2.5vh;
+    height: auto;
+    justify-content: center;
+}
 
     
-}
+
 .language {
-    grid-column: 1;
+    grid-area: a;
     grid-row: 1;
     box-sizing: border-box;
     border: 10px solid rgb(194, 182, 167);
     border-radius: 20px;
+    
+    
 }
 .database {
-    grid-column: 2;
+    grid-area: b;
     grid-row: 1;
     box-sizing: border-box;
     border: 10px solid rgb(178, 184, 168);
     border-radius: 20px;
 }
 .framework {
-    grid-column: 1;
+    grid-area: c;
     grid-row: 2;
     box-sizing: border-box;
     border: 10px solid rgb(171, 167, 175);
     border-radius: 20px;
 }
 .network {
-    grid-column: 2;
+    grid-area: d;
     grid-row: 2;
     box-sizing: border-box;
     border: 10px solid rgb(179, 160, 165);

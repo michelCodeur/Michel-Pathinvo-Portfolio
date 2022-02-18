@@ -20,18 +20,22 @@
     box-sizing: border-box;
     border: 10px solid darkgrey;
     border-radius: 20px;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: auto;
     object-fit: cover;
     z-index: -1;
+
 }
+
 .holiday {
     grid-column: 2;
     grid-row: 1;
     box-sizing: border-box;
     border: 10px solid darkgrey;
     border-radius: 20px;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: auto;
     transform: scale(1);
     object-fit: cover;
@@ -43,8 +47,17 @@
     box-sizing: border-box;
     border: 10px solid darkgrey;
     border-radius: 20px;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     height: auto;
     object-fit: cover;
     z-index: -1;
+}
+img {
+    transition: 0.5s;
+
+}
+img:hover {
+    transform: scale(1.2);
+
 }
