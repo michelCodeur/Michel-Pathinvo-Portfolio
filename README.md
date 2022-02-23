@@ -1,4 +1,5 @@
-# Theportfolio project was designed to showcase Michel Pathinvo's developer skills and projects. 
+# The portfolio project 
+This was designed to showcase Michel Pathinvo's developer skills and projects. 
 
 
 ## Installation Instructions and Edit
