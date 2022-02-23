@@ -3,14 +3,21 @@ import styles from './Projects.module.css';
 import thewatson from '../../Assets/thewatson.jpg';
 import holidaysworldwide from '../../Assets/holidaysworldwide.jpg';
 import statecapitaltrivia from '../../Assets/statecapitaltrivia.jpg';
+import peeep from '../../Assets/peeep.jpg'
 
 function Projects(props) {
 	return (
-		<>
+		<div className={styles.background}>
 			<div className={styles.title}>
 				<h2> My Projects</h2>
 			</div>
-			<div className={styles.background}>
+			<div className={styles.grid_background}>
+				<div>
+					<h3>Peep</h3>
+					<a href='https://peeep.netlify.app/'>
+						<img src={peeep} className={styles.peep} alt='peep' />
+					</a>
+				</div>
 				<div>
 					<h3>The Watson</h3>
 					<a href='https://the-watson.netlify.app'>
@@ -38,7 +45,7 @@ function Projects(props) {
 					</a>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
 

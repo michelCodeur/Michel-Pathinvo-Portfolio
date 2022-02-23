@@ -3,7 +3,7 @@ import styles from './Resume.module.css';
 
 function Resume(props) {
 	return (
-		<>
+		<div className={styles.background}>
 			<div className={styles.title}>
 				<h1> My Resume </h1>
 			</div>
@@ -14,7 +14,7 @@ function Resume(props) {
 				</h2>
 			</div>
 			<h2>Thank you for your consideration!</h2>
-		</>
+		</div>
 	);
 }
 

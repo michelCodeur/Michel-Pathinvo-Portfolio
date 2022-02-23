@@ -1,27 +1,10 @@
 import React from 'react';
 import styles from './Hello.module.css';
 import photoMichelNew from '../../Assets/photoMichelNew.jpg';
-import Arizona from '../../Assets/Arizona.jpg';
-import London from '../../Assets/London.jpeg';
-import partheon from '../../Assets/partheon.jpeg';
-import RioJanero from '../../Assets/RioJaneiro.jpeg';
-import Sydney from '../../Assets/Sydney.jpeg';
-import Tallinn from '../../Assets/Tallinn.jpeg';
-import thegreatwall from '../../Assets/thegreatwall.jpeg';
-import Zanzibar from '../../Assets/Zanzibar.jpeg';
+
 
 function Hello(props) {
 
-	const photos = [
-		<img src={London} alt='' />,
-		<img src={Arizona} alt='' />,
-		<img src={partheon} alt='' />,
-		<img src={RioJanero} alt='' />,
-		<img src={Sydney} alt='' />,
-		<img src={Tallinn} alt='' />,
-		<img src={thegreatwall} alt='' />,
-		<img src={Zanzibar} alt='' />,
-	];
 
 	return (
 		<div className={styles.section}>
@@ -36,8 +19,21 @@ function Hello(props) {
 			<div className={styles.meet}>
 				<h1>Meet Michel</h1>
 			</div>
-			<div className={styles.nothing}>
-				<h3> My bucket list of places I would like to discover! </h3>
+			<div className={styles.socialinks}>
+				<div className={styles.links}>
+					<div className={styles.github}>
+						<a href='https://www.github.com/michelCodeur' class='fa fa-github fa-4x'>
+							
+						</a>
+					</div>
+					<div className={styles.linkedin}>
+						<a
+							href='https://www.linkedin.com/in/michelpathinvo'
+							class='fa fa-linkedin fa-4x'>
+							
+						</a>
+					</div>
+				</div>
 			</div>
 			<div className={styles.photo}>
 				<img src={photoMichelNew} alt='photoMichelNew' />

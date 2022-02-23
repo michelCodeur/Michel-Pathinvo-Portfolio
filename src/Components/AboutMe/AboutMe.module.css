@@ -31,5 +31,10 @@ img {
      text-transform: capitalize;
      font-size: 30px;
  }
+ .background {
+     position: relative;
+     min-height: 60vh;
+     padding-bottom: 1.5rem;
+ }
  
  

@@ -1,45 +1,15 @@
 .footerContainer {
-	position: fixed;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	width: 100%;
-	height: fit-content;
+	height: 1.5rem;
 	background-color: rgb(170, 170, 164);
 	color: rgb(105, 126, 145);
 	text-align: center;
 }
 .footerContainer span {
-	font-size: 1.5vmax;
+	font-size: 1vmax;
 	color: #555555;
 	font-weight: bolder;
-}
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 10px 5px;
-}
-
-.fa:hover {
- opacity: 0.7;
-}
-.fa-twitter {
-  background: #0577ce;
-  color: white;
-}
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-.github {
-	background-image: url('../../Assets/GitHub.png');
-}
-
-a {
-	display: inline;
-	justify-content: space-between;
-
 }

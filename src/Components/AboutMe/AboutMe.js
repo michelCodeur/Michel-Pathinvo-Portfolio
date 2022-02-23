@@ -9,23 +9,19 @@ function AboutMe(props) {
 				</span>
 				<p className={styles.paragraph}>
 					<h4>
-						First generation immigrant from Benin Republic, a French
-						speaking country in the Western part of the African continent, I
-						moved to U.S. more than a decade ago with my family. With a
-						background in STEM, I went ahead to complete a University of Illinois in
-						Springfield while working in the state government. <br />
-						Being always passionate by technology, I decided to sharpen my web
-						development skills and look at what I just built among many others
-						projects.
-						<br />
-						I look forward to put my knowledge to better the world around me.
-						<br /> Thanks for reading...
+						First generation immigrant from Benin Republic, a French speaking
+						country in the Western part of the African continent, I moved to
+						the U.S. more than a decade ago with my family. <br/> With an educational
+						background in STEM, I made the goal to nourish my passion in
+						Computer Science while working in the state government. I recently
+						caught myself in strengthening my skills in web development and it
+						has been a great experience. I have built responsive and
+						user-centered applications in a short time period through different
+						projects. <br/> In my free time, I like to travel to unknown places and I
+						always enjoyed city-biking. I look forward to putting my knowledge
+						into bringing out the best in web development. <br/> Thanks for reading...
 					</h4>
 				</p>
-				<div className={styles.quote}>
-				{/* <p>The best time for a new beginning is now!</p> */}
-                </div>
-				
 			</div>
 		);
 }

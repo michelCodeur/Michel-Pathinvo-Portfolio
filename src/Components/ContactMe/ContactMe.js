@@ -25,7 +25,7 @@ function ContactMe(props) {
 		e.target.reset();
 	};
 	return (
-		<>
+		<div className={styles.background}>
 			<div className={styles.container}>
 				<form className={styles.form} ref={form} onSubmit={sendEmail}>
 					<label htmlFor='Name'>Name</label>
@@ -40,7 +40,7 @@ function ContactMe(props) {
 					</button>
 				</form>
 			</div>
-		</>
+		</div>
 	);
 }
 
