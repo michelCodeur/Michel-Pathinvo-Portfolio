@@ -17,14 +17,15 @@ function App() {
 		<>
 			<Home />
 			<Navigation />
+
 			<ScrollToTop />
 			<Routes>
-				<Route path='/hello' element={<Hello />} />
+				<Route path='/' element={<Hello />} />
 				<Route path='/aboutme' element={<AboutMe />} />
-				<Route path='/contactme' element={<ContactMe />} />
+				<Route path='/skills' element={<Skills />} />
 				<Route path='/projects' element={<Projects />} />
 				<Route path='/resume' element={<Resume />} />
-				<Route path='/skills' element={<Skills />} />
+				<Route path='/contactme' element={<ContactMe />} />
 			</Routes>
 			<Footer />
 		</>

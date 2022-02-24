@@ -1,6 +1,7 @@
  
 .title {
     text-decoration: underline;
+    font-size: 1.3vw;
     font-family: "Space Mono", monospace;
     color: rgb(56, 56, 141);
     text-indent: 60px;

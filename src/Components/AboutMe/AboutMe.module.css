@@ -5,6 +5,7 @@ img {
 }
 .title {
     text-decoration: underline;
+    font-size: 1.3vw;
     font-family: "Space Mono", monospace;
     color: rgb(56, 56, 141);
     text-indent: 60px;
@@ -15,6 +16,7 @@ img {
 }
 .paragraph {
     text-indent: 40px;
+    font-size: 1.3vw;
     letter-spacing: 2px;
     line-height: 2;
     padding:0 20px 0 20px;
