@@ -13,19 +13,19 @@ function Projects(props) {
 			</div>
 			<div className={styles.grid_background}>
 				<div>
-					<h3>Peep</h3>
+					<h3 className={styles.title_project}>Peep</h3>
 					<a href='https://peeep.netlify.app/'>
 						<img src={peeep} className={styles.peep} alt='peep' />
 					</a>
 				</div>
 				<div>
-					<h3>The Watson</h3>
+					<h3 className={styles.title_project}>The Watson</h3>
 					<a href='https://the-watson.netlify.app'>
 						<img src={thewatson} className={styles.watson} alt='the watson' />
 					</a>
 				</div>
 				<div>
-					<h3>Holidays Worldwide</h3>
+					<h3 className={styles.title_project}>Holidays Worldwide</h3>
 					<a href='https://holidays-worldwide.netlify.app/'>
 						<img
 							src={holidaysworldwide}
@@ -35,7 +35,7 @@ function Projects(props) {
 					</a>
 				</div>
 				<div>
-					<h3>State capitals Trivia</h3>
+					<h3 className={styles.title_project}>State capitals Trivia</h3>
 					<a href='https://michelcodeur.github.io/State-Capitals-Trivia/'>
 						<img
 							src={statecapitaltrivia}
