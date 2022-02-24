@@ -22,14 +22,14 @@ function Hello(props) {
 			<div className={styles.socialinks}>
 				<div className={styles.links}>
 					<div className={styles.github}>
-						<a href='https://www.github.com/michelCodeur' class='fa fa-github fa-4x'>
+						<a href='https://www.github.com/michelCodeur' class='fa fa-github'>
 							
 						</a>
 					</div>
 					<div className={styles.linkedin}>
 						<a
 							href='https://www.linkedin.com/in/michelpathinvo'
-							class='fa fa-linkedin fa-4x'>
+							class='fa fa-linkedin'>
 							
 						</a>
 					</div>
