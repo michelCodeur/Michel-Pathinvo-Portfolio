@@ -17,10 +17,9 @@ function App() {
 		<>
 			<Home />
 			<Navigation />
-
 			<ScrollToTop />
 			<Routes>
-				<Route path='/' element={<Hello />} />
+				<Route exact path='/hello' element={<Hello />} />
 				<Route path='/aboutme' element={<AboutMe />} />
 				<Route path='/skills' element={<Skills />} />
 				<Route path='/projects' element={<Projects />} />
