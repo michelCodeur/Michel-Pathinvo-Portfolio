@@ -19,7 +19,7 @@ function App() {
 			<Navigation />
 			<ScrollToTop />
 			<Routes>
-				<Route exact path='/hello' element={<Hello />} />
+				<Route path='/hello' element={<Hello />} />
 				<Route path='/aboutme' element={<AboutMe />} />
 				<Route path='/skills' element={<Skills />} />
 				<Route path='/projects' element={<Projects />} />
